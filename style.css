@@ -1,0 +1,93 @@
+
+body {
+  box-sizing: content-box;
+  font-family: "Lora", serif;
+}
+
+#banner {
+  background-image: url(/images/anthony-a-5wyYvUgRk3E-unsplash.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 10px;
+  padding: 3px;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Special Elite", system-ui;;
+}
+
+.page-description {
+  color: white;
+  font-size: 18px;
+  margin:0;
+  font-family:'Courier New', Courier, monospace
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+}
+
+.fancy-link {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+  background-color: rgb(252, 217, 217);
+  font-size: 20px;
+  padding: 3px;
+  transition: color 0.3s ease;
+}
+
+.fancy-link:hover {
+  background-color: rgb(164, 6, 6);
+  color: white;
+}
+
+@media(max-width: 768px) {
+  #banner {
+    height: 350px
+  }
+
+  main {
+  width: 500px;
+  padding: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .fancy-link {
+    font-size: 16px;
+  }
+
+}
+@media(max-width: 576px) {
+  #banner {
+    height: 300px
+  }
+
+  main {
+  width: 350px;
+  padding: 20px;
+  }
+
+}
